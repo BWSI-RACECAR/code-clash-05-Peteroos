@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "Look behind you!",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "what word are you looking for",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "This should be fun",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "his job is to make people laugh",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "How high can his white dog hike",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "hi ho howdy hi",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "high in his hinderance",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "none to be found here",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "Thick hIcks Hike shIny fish",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 wordfreq.py",
+      "input": "History hides his hints helpless him",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
