@@ -30,7 +30,7 @@ class Solution:
         hi_number = 0
         for i in range(len(hi_string)-1):
             if hi_string[i] == 'h' or hi_string[i] == 'H' :
-                if hi_string[i+1] == 'i' or hi_string[i+1] == 'I'：
+                if hi_string[i+1] == 'i' or hi_string[i+1] == 'I':
                     hi_number +=1
                 
                 else:
